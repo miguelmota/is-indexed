@@ -1,0 +1,29 @@
+{
+  "name": "is-indexed",
+  "version": "0.0.1",
+  "description": "Predicate that returns true for \"indexed\" values.",
+  "main": "is-indexed.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miguelmota/is-indexed"
+  },
+  "keywords": [
+    "predicate",
+    "indexed"
+  ],
+  "author": "Miguel Mota <hello@miguelmota.com> (http://www.miguelmota.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miguelmota/is-indexed/issues"
+  },
+  "homepage": "https://github.com/miguelmota/is-indexed",
+  "dependencies": {
+    "tape": "^3.0.3"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "is-indexed",
+  "main": "is-indexed.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/miguelmota/is-indexed",
+  "authors": [
+    "Miguel Mota <miguelmota2@gmail.com>"
+  ],
+  "description": "Predicate that returns true for \"indexed\" values.",
+  "keywords": [
+    "predicate",
+    "indexed"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "license": "MIT"
+}
