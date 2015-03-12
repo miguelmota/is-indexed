@@ -1,7 +1,7 @@
 (function(root) {
 
   function isIndexed(v) {
-    return Array.isArray(v) || (typeof v === 'string' || v instanceof String);
+    return Array.isArray(v) || (typeof v === 'string' || v instanceof String) || (v && v.toString() === '[object Arguments]');
   }
 
   if (typeof exports !== 'undefined') {

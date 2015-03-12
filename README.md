@@ -23,6 +23,7 @@ console.log(isIndexed({})); // false
 console.log(isIndexed(null)); // false
 console.log(isIndexed(undefined)); // false
 console.log(isIndexed(1)); // false
+console.log((function() { return isIndexed(arguments); })()); // true
 ```
 
 # License

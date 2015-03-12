@@ -2,10 +2,11 @@ var test = require('tape');
 var isIndexed = require('../is-indexed');
 
 test('isIndexed', function (t) {
-  t.plan(10);
+  t.plan(11);
 
   t.true(isIndexed(''));
   t.true(isIndexed([]));
+  t.true((function() { return isIndexed(arguments); })());
   t.false(isIndexed(0));
   t.false(isIndexed(null));
   t.false(isIndexed(undefined));
